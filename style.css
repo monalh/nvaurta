@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hind Siliguri;
+}
+
+body{
+    background: #db8f8f;
+    color: #fff;
+}
+
+.section_offer{
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(to right, rgb(255, 0, 30), rgb(255, 187, 0));
+    box-shadow: 0px 0px 12px 0px rgb(112, 112, 112);
+}
+
+h1.offfer_header{
+    text-align: center;
+    font-size: 42px;
+}
+
+.offers p{
+    font-size: 18px;
+    padding: 0 20px;    
+}
+
+.highlight{
+    background: rgb(36, 36, 36);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.offers .btn > a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+iframe{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 635px) {
+    .section_offer{
+        width: 500px;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    iframe{
+        width: 480px;
+    }
+}
+
+
+@media (max-width: 535px) {
+    .section_offer{
+        width: 400px;
+        margin: 10px auto;
+        padding: 5px;
+    }
+    iframe{
+        width: 380px;
+    }
+    h1.offfer_header{
+        font-size: 40px;
+    }
+    
+    .offers p{
+        font-size: 16px;
+        padding: 0 10px;    
+    }
+
+    .nitimala{
+        font-size: 16px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .section_offer{
+        width: 380px;
+        margin: 5px auto;
+        padding: 2px;
+    }
+    iframe{
+        width: 360px;
+        margin-left: 5px;
+    }
+    
+}
+
+@media (max-width: 390px) {
+    .section_offer{
+        width: 370px;
+    }
+    iframe{
+        width: 350px;
+    }
+    
+}
+
+@media (max-width: 380px) {
+    .section_offer{
+        width: 360px;
+    }
+    iframe{
+        width: 340px;
+    }
+    
+}
+
+@media (max-width: 370px) {
+    .section_offer{
+        width: 350px;
+    }
+    iframe{
+        width: 330px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .section_offer{
+        width: 340px;
+    }
+    iframe{
+        width: 320px;
+    }
+    
+}
+
+@media (max-width: 350px) {
+    .section_offer{
+        width: 330px;
+    }
+    iframe{
+        width: 310px;
+    }
+    
+}
+
+@media (max-width: 340px) {
+    .section_offer{
+        width: 330px;
+    }
+    iframe{
+        width: 310px;
+    }
+    
+}
